@@ -1,0 +1,21 @@
+.gradient{
+    background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.7),rgba(0,0,0,.5), rgba(0,0,0,.3));
+ }
+ 
+ 
+ /* FOR BEER MUG LOGO AT BOTOTM */
+ body {
+    background: #ff9c08;
+    color: #fff;
+  }
+  a {
+    color:#fff;
+  }
+  p {
+    padding: 3em 0;
+  }
+  .container {
+    text-align:center;
+    padding: 3em 0;
+  }
+ 
