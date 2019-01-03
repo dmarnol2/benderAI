@@ -5,7 +5,7 @@ import {Routes, RouterModule } from '@angular/router';
 import { FormsModule }   from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 // import { RegistrationComponent } from './registration/registration.component';
-// import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './home/home.component';
 // import { BeerComponent } from './beer/beer.component';
 import { AppComponent } from './app.component';
 // import { SearchComponent} from './search/search.component';
@@ -21,10 +21,10 @@ const routes: Routes = [
 
  // { path: 'register', component: RegisterComponent },
 //  { path: 'login', component: LoginComponent },
-//  { path: '',
-//  redirectTo: '/home',
-//  pathMatch: 'full' },
-  //  {path: 'home', component:HomeComponent},
+ { path: '',
+ redirectTo: '/home',
+ pathMatch: 'full' },
+   {path: 'home', component:HomeComponent},
 //  { path: 'registration', component: RegistrationComponent },
 //  {path: 'beers', component: BeerComponent},
 //  { path: 'search/:name', component: SearchComponent },
@@ -32,7 +32,7 @@ const routes: Routes = [
 //  {path: 'benderAR',component: BenderARComponent},
 //  {path:'**', component: PageNotFoundComponent}
 
- // { path: 'home', component: AppComponent },
+ { path: 'home', component: AppComponent },
 
  // { path: 'dashboard', component: DashboardComponent},
 

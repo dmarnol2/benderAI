@@ -1,0 +1,105 @@
+html, body {
+    background: #333;
+ }
+ svg + svg {
+    margin-top: 2em;
+ }
+ 
+ .wrapper {
+    max-width: 30px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2em;
+ }
+ 
+ svg {
+    width: 30px;
+    max-height: 200px;
+    display: inline-block;
+ }
+ 
+ .arrow-down path {
+   stroke: black;
+   fill: transparent;
+   stroke-width: 3px;  
+   animation: arrow 5s infinite;
+   -webkit-animation: arrow 5s infinite;
+ }
+ 
+ @keyframes arrow
+ {
+ 0% {opacity:0}
+ 40% {opacity:.8}
+ 80% {opacity:0}
+ 100% {opacity:0}
+ }
+ 
+ @-webkit-keyframes arrow /*Safari and Chrome*/
+ {
+ 0% {opacity:0}
+ 40% {opacity:.8}
+ 80% {opacity:0}
+ 100% {opacity:0}
+ }
+ 
+ 
+ .arrow-down path.a1 {
+   animation-delay:0s;
+   -webkit-animation-delay:0s; /* Safari 和 Chrome */
+ }
+ 
+ .arrow-down path.a2 {
+   animation-delay:.2s;
+   -webkit-animation-delay:.2s; /* Safari 和 Chrome */
+ }
+ 
+ .arrow-down path.a3 { 
+   animation-delay:.4s;
+   -webkit-animation-delay:.4s; /* Safari 和 Chrome */
+ }
+ .arrow-down path.a4 {
+   animation-delay:.6s;
+   -webkit-animation-delay:.6s; /* Safari 和 Chrome */
+ }
+ 
+ .arrow-down path.a5 {
+   animation-delay:.8s;
+   -webkit-animation-delay:.8s; /* Safari 和 Chrome */
+ }
+ 
+ .arrow-down path.a6 { 
+   animation-delay:1s;
+   -webkit-animation-delay:1s; /* Safari 和 Chrome */
+ }
+ .arrow-down path.a7 {
+   animation-delay:1.2s;
+   -webkit-animation-delay:1.2s; /* Safari 和 Chrome */
+ }
+ 
+ .arrow-down path.a8 {
+   animation-delay:1.4s;
+   -webkit-animation-delay:1.4s; /* Safari 和 Chrome */
+ }
+ 
+ .arrow-down path.a9 { 
+   animation-delay:1.6s;
+   -webkit-animation-delay:1.6s; /* Safari 和 Chrome */
+ }
+ 
+ body {
+    background: #ff9c08;
+    color: #fff;
+  }
+  a {
+    color:#fff;
+  }
+  .p2 {
+    padding: 3em 0;
+  }
+  .container2 {
+    text-align:center;
+    padding: 3em 0;
+  }
+  /* END BEER LOGO MUG */
+ 
+ 
